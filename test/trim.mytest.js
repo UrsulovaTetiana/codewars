@@ -4,7 +4,7 @@ const expect = require("chai").expect;
 describe("Triming function", function () {
   context("size arg is less then str length", function () {
     it("should return same str", function () {
-      expect(trim("fuck", 4)).to.equal("fuck");
+      expect(trim("funk", 4)).to.equal("funk");
     });
   });
 
